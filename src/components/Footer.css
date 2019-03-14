@@ -9,3 +9,10 @@ footer {
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
+
+.icons {
+  float: right;
+  font-size: 2rem;
+  margin-right: 1rem
+  
+}

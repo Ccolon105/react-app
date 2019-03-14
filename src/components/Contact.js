@@ -7,25 +7,24 @@ const Contact= () => {
       
       <div id="main-container" className="container">
       <section className="main-section">
-        <h1>Contact</h1>
+        <h1>Contact Information</h1>
   
-        <form id="contact-form">
           <ul>
             <li>
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="John Smith" required="required"/>
+              Email: Ccolon105@yahoo.com
             </li>
             <li>
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required"/>
+            <a href="https://www.linkedin.com/in/caleb-colon/" target="_blank" className="icons2">
+          <i className="fab fa-linkedin"></i>
+          </a>
             </li>
             <li>
-              <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" required="required"></textarea>
+            <a href="https://github.com/Ccolon105" target="_blank" className="icons2">
+          <i className="fab fa-github"></i>
+          </a>
             </li>
           </ul>
-          <input type="submit"/>
-        </form>
+        
   
       </section>
   
